@@ -1,0 +1,6 @@
+"Guid","Name","SBQQ__Account__c","SBQQ__AggregationScope__c","SBQQ__ConstraintField__c","SBQQ__CrossOrders__c","SBQQ__CrossProducts__c","SBQQ__Description__c","SBQQ__DiscountUnit__c","SBQQ__ExcludedPricebookIds__c","SBQQ__IncludeBundledProducts__c","SBQQ__OriginalDiscountSchedule__c","SBQQ__OverrideBehavior__c","SBQQ__PriceScale__c","SBQQ__QuoteLineQuantityField__c","SBQQ__Quote__c","SBQQ__Type__c","SBQQ__UsePriceForAmount__c","SBQQ__UserDefined__c"
+2ba1107f-e1d0-4381-9670-c0525be5e878,undefined 2,"#N/A","#N/A","#N/A",false,false,"#N/A",Percent,"#N/A",false,"#N/A","#N/A",2.0,Quantity,"#N/A",Range,false,false
+5107b976-548e-4f85-b991-6ffe74dbde8a,undefined 1,"#N/A","#N/A","#N/A",false,false,"#N/A",Percent,"#N/A",false,"#N/A","#N/A",2.0,Quantity,"#N/A",Range,false,false
+cce083e1-23f7-4c77-9e9f-896e849f5b20,undefined 3,"#N/A","#N/A","#N/A",false,false,"#N/A",Percent,"#N/A",false,"#N/A","#N/A",2.0,Quantity,"#N/A",Range,false,false
+e624c684-6b5c-47d3-854b-0efe6f7d4374,undefined 4,"#N/A","#N/A","#N/A",false,false,"#N/A",Percent,"#N/A",false,"#N/A","#N/A",2.0,Quantity,"#N/A",Range,false,false
+f8b19437-648e-4362-89a9-de2b82ae07cc,undefined 5,"#N/A","#N/A","#N/A",false,false,"#N/A",Percent,"#N/A",false,"#N/A","#N/A",2.0,Quantity,"#N/A",Range,false,false
