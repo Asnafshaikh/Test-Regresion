@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>312778.35313688987</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Destructive Metadata E2E Test</label>
+    <label>Testing custom</label>
     <nameField>
-        <label>Destructive Metadata E2E Test</label>
+        <label>Testing custom Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Destructive Metadata E2E Tests</pluralLabel>
+    <pluralLabel>tests</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
