@@ -143,5 +143,5 @@
         <searchResultsAdditionalFields>IsEnabled</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ShouldSyncWithOci</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
