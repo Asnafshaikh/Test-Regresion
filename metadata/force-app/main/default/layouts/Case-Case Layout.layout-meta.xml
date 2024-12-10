@@ -11,6 +11,10 @@
         </feedFilters>
         <feedFilters>
             <feedFilterType>FeedItemType</feedFilterType>
+            <feedItemType>EmailMessageEvent</feedItemType>
+        </feedFilters>
+        <feedFilters>
+            <feedFilterType>FeedItemType</feedFilterType>
             <feedItemType>CallLogPost</feedItemType>
         </feedFilters>
         <feedFilters>
@@ -204,6 +208,12 @@
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
+            <quickActionName>Case.Email</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.SendEmail</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>Case.LogACall</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -267,6 +277,10 @@
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedAttachmentList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>custchild2__c.CaseLook__c</relatedList>
     </relatedLists>
     <relatedObjects>ContactId</relatedObjects>
     <relatedObjects>AccountId</relatedObjects>

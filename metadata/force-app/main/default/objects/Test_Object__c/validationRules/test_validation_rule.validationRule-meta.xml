@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_validation_rule</fullName>
+    <active>true</active>
+    <description>desc</description>
+    <errorConditionFormula>5 &gt; 3 &amp;&amp; 0 == 0</errorConditionFormula>
+    <errorMessage>adfadsfgdg</errorMessage>
+</ValidationRule>

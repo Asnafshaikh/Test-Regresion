@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Account_Lookup_Field__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Test Account Lookup Field</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.Name</field>
+            <operation>contains</operation>
+            <value>Test</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Test Objects</relationshipLabel>
+    <relationshipName>Test_Objects</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

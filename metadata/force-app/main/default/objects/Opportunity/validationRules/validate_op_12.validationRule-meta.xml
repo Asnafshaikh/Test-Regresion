@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validate_op_12</fullName>
+    <active>true</active>
+    <errorConditionFormula>Name = &apos;new1&apos;</errorConditionFormula>
+    <errorMessage>e</errorMessage>
+</ValidationRule>

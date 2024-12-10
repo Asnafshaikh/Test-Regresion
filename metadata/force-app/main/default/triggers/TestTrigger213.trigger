@@ -1,0 +1,1 @@
+trigger TestTrigger213 on Contact (after insert){}

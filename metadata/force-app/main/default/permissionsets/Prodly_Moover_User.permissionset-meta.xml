@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><PermissionSet n1:type="PermissionSet" xmlns="http://soap.sforce.com/2006/04/metadata"
    xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
- <description>Standard user permissions across all Prodly AppOps objects except creating connections and view/modify all permissions across all other Prodly AppOps objects.</description>
+ <description>Standard user permissions across all Prodly objects except creating         connections and view/modify all permissions across all other Prodly objects.</description>
  <hasActivationRequired>false</hasActivationRequired>
- <label>Prodly AppOps User Cloned</label>
+ <label>Prodly User Object</label>
+ <objectPermissions>
+  <allowCreate>false</allowCreate>
+  <allowDelete>false</allowDelete>
+  <allowEdit>false</allowEdit>
+  <allowRead>true</allowRead>
+  <modifyAllRecords>false</modifyAllRecords>
+  <object>X15_00_Obj_New__c</object>
+  <viewAllRecords>false</viewAllRecords>
+ </objectPermissions>
+ <objectPermissions>
+  <allowCreate>false</allowCreate>
+  <allowDelete>true</allowDelete>
+  <allowEdit>true</allowEdit>
+  <allowRead>true</allowRead>
+  <modifyAllRecords>true</modifyAllRecords>
+  <object>sf_devops__Object_Activity__c</object>
+  <viewAllRecords>true</viewAllRecords>
+ </objectPermissions>
+ <objectPermissions>
+  <allowCreate>false</allowCreate>
+  <allowDelete>false</allowDelete>
+  <allowEdit>false</allowEdit>
+  <allowRead>true</allowRead>
+  <modifyAllRecords>false</modifyAllRecords>
+  <object>sf_devops__Project__c</object>
+  <viewAllRecords>false</viewAllRecords>
+ </objectPermissions>
 </PermissionSet>
