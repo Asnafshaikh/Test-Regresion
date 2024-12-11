@@ -1,0 +1,1 @@
+trigger oppTrigger7 on Opportunity (after insert){}

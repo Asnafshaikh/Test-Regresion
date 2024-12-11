@@ -1,0 +1,4 @@
+<apex:component >
+    <apex:attribute name="message" type="String" description="A message to display" required="false"/>
+    <apex:outputText value="{!message}" />
+</apex:component>

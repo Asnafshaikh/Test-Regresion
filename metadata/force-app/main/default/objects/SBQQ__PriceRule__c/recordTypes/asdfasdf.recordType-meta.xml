@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>asdfasdf</fullName>
+    <active>false</active>
+    <label>asdfasdf</label>
+    <picklistValues>
+        <picklist>SBQQ__ConditionsMet__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Any</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__ConfiguratorEvaluationEvent__c</picklist>
+        <values>
+            <fullName>Edit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Save</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__EvaluationEvent__c</picklist>
+        <values>
+            <fullName>After Calculate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Before Calculate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Calculate</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Initialization</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__LookupObject__c</picklist>
+        <values>
+            <fullName>SBQQ%5F%5FLookupData%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__TargetObject__c</picklist>
+        <values>
+            <fullName>Calculator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configurator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

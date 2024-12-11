@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>taco_validation_rule</fullName>
+    <active>true</active>
+    <description>just a validation rule</description>
+    <errorConditionFormula>Taco_Field__c == null</errorConditionFormula>
+    <errorMessage>Field is empty, please fill it</errorMessage>
+</ValidationRule>
