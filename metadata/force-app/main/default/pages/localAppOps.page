@@ -1,9 +1,0 @@
-<apex:page >
-<apex:includeScript value="/canvas/sdk/js/36.0/controller.js"/>
-
-<apex:canvasApp developerName="localAppOps"       
-    width="100%" 
-    maxHeight="infinite"
-    canvasId="cnvstart" 
-    parameters="{githubCode: '', action: '', bitbucketCode: '', deploymentPlanId: '', dataSetId: '', bitbucketWorkspace: '', page: 'appops_release', url: 'https://appopsqa13.lightning.force.com/lightning/n/AppopsReleaseLocal', title: 'Prodly AppOps'}"/>
-</apex:page>
